@@ -18,7 +18,7 @@ Professional construction and building services website featuring:
 
 ## Live Site
 
-Visit: [https://Imrantheallrounder.github.io/gyosis-buildtech](https://Imrantheallrounder.github.io/gyosis-buildtech)
+Visit: [http://imrantheallrounder.me/gyosis-buildtech/](http://imrantheallrounder.me/gyosis-buildtech/)
 
 ## Local Development
 
