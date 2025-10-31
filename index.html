@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premier Builders - Quality Construction & Development</title>
+    <link rel="stylesheet" href="static/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-home"></i>
+                <span>Premier Builders</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#lands" class="nav-link">Available Lands</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Building Your Dreams Into Reality</h1>
+            <p>Professional construction services with over 15 years of experience in residential and commercial projects</p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary">View Our Work</a>
+                <a href="#contact" class="btn btn-secondary">Get Quote</a>
+            </div>
+        </div>
+        <div class="hero-stats">
+            <div class="stat">
+                <h3>200+</h3>
+                <p>Projects Completed</p>
+            </div>
+            <div class="stat">
+                <h3>15+</h3>
+                <p>Years Experience</p>
+            </div>
+            <div class="stat">
+                <h3>100%</h3>
+                <p>Client Satisfaction</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>About Premier Builders</h2>
+                    <p>With over 15 years of experience in the construction industry, Premier Builders has established itself as a trusted name in quality construction and development. We specialize in residential homes, commercial buildings, and land development projects.</p>
+                    <p>Our commitment to excellence, attention to detail, and use of premium materials ensures that every project we undertake exceeds expectations and stands the test of time.</p>
+                    <div class="about-features">
+                        <div class="feature">
+                            <i class="fas fa-award"></i>
+                            <h4>Quality Assurance</h4>
+                            <p>Every project undergoes rigorous quality checks</p>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-clock"></i>
+                            <h4>Timely Delivery</h4>
+                            <p>Projects completed on schedule, every time</p>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-tools"></i>
+                            <h4>Expert Craftsmanship</h4>
+                            <p>Skilled professionals with years of experience</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1581092921461-eab62e97a780?w=600&h=400&fit=crop" alt="Construction team at work">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <i class="fas fa-home"></i>
+                    <h3>Residential Construction</h3>
+                    <p>Custom homes designed and built to your specifications with attention to every detail.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-building"></i>
+                    <h3>Commercial Buildings</h3>
+                    <p>Professional commercial construction for offices, retail spaces, and industrial facilities.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-hammer"></i>
+                    <h3>Renovation & Remodeling</h3>
+                    <p>Transform your existing space with our comprehensive renovation services.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-map"></i>
+                    <h3>Land Development</h3>
+                    <p>Complete land development services from planning to infrastructure installation.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>Featured Projects</h2>
+            <div class="project-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="residential">Residential</button>
+                <button class="filter-btn" data-filter="commercial">Commercial</button>
+                <button class="filter-btn" data-filter="renovation">Renovation</button>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card" data-category="residential">
+                    <img src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=400&h=300&fit=crop" alt="Modern Family Home">
+                    <div class="project-overlay">
+                        <h3>Modern Family Home</h3>
+                        <p>Luxury 4-bedroom home with contemporary design</p>
+                        <span class="project-category">Residential</span>
+                    </div>
+                </div>
+                <div class="project-card" data-category="commercial">
+                    <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=400&h=300&fit=crop" alt="Office Complex">
+                    <div class="project-overlay">
+                        <h3>Corporate Office Complex</h3>
+                        <p>5-story modern office building with parking</p>
+                        <span class="project-category">Commercial</span>
+                    </div>
+                </div>
+                <div class="project-card" data-category="residential">
+                    <img src="https://images.unsplash.com/photo-1613977257363-707ba9348227?w=400&h=300&fit=crop" alt="Villa Project">
+                    <div class="project-overlay">
+                        <h3>Luxury Villa</h3>
+                        <p>Exclusive villa with pool and garden</p>
+                        <span class="project-category">Residential</span>
+                    </div>
+                </div>
+                <div class="project-card" data-category="renovation">
+                    <img src="https://images.unsplash.com/photo-1616047006789-b7af710a08e2?w=400&h=300&fit=crop" alt="Kitchen Renovation">
+                    <div class="project-overlay">
+                        <h3>Kitchen Renovation</h3>
+                        <p>Complete kitchen makeover with modern fixtures</p>
+                        <span class="project-category">Renovation</span>
+                    </div>
+                </div>
+                <div class="project-card" data-category="commercial">
+                    <img src="https://images.unsplash.com/photo-1556912173-3bb406ef7e77?w=400&h=300&fit=crop" alt="Retail Space">
+                    <div class="project-overlay">
+                        <h3>Retail Shopping Center</h3>
+                        <p>Modern retail complex with multiple units</p>
+                        <span class="project-category">Commercial</span>
+                    </div>
+                </div>
+                <div class="project-card" data-category="residential">
+                    <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=400&h=300&fit=crop" alt="Apartment Complex">
+                    <div class="project-overlay">
+                        <h3>Residential Complex</h3>
+                        <p>24-unit apartment building with amenities</p>
+                        <span class="project-category">Residential</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Available Lands Section -->
+    <section id="lands" class="lands">
+        <div class="container">
+            <h2>Available Development Lands</h2>
+            <div class="lands-grid">
+                <div class="land-card">
+                    <img src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=400&h=300&fit=crop" alt="Prime Location Plot">
+                    <div class="land-info">
+                        <h3>Prime Location - Downtown</h3>
+                        <div class="land-details">
+                            <span><i class="fas fa-expand-arrows-alt"></i> 2.5 Acres</span>
+                            <span><i class="fas fa-map-marker-alt"></i> Downtown District</span>
+                            <span><i class="fas fa-tag"></i> $850,000</span>
+                        </div>
+                        <p>Perfect for commercial development with high foot traffic and excellent connectivity.</p>
+                        <button class="btn btn-primary">View Details</button>
+                    </div>
+                </div>
+                <div class="land-card">
+                    <img src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=400&h=300&fit=crop" alt="Residential Plot">
+                    <div class="land-info">
+                        <h3>Residential Development Plot</h3>
+                        <div class="land-details">
+                            <span><i class="fas fa-expand-arrows-alt"></i> 1.8 Acres</span>
+                            <span><i class="fas fa-map-marker-alt"></i> Suburban Area</span>
+                            <span><i class="fas fa-tag"></i> $420,000</span>
+                        </div>
+                        <p>Ideal for residential complex development with peaceful surroundings and modern amenities.</p>
+                        <button class="btn btn-primary">View Details</button>
+                    </div>
+                </div>
+                <div class="land-card">
+                    <img src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=400&h=300&fit=crop" alt="Industrial Plot">
+                    <div class="land-info">
+                        <h3>Industrial Zone Plot</h3>
+                        <div class="land-details">
+                            <span><i class="fas fa-expand-arrows-alt"></i> 5.2 Acres</span>
+                            <span><i class="fas fa-map-marker-alt"></i> Industrial Zone</span>
+                            <span><i class="fas fa-tag"></i> $1,200,000</span>
+                        </div>
+                        <p>Large industrial plot with highway access, perfect for manufacturing or warehouse facilities.</p>
+                        <button class="btn btn-primary">View Details</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Contact Information</h3>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+1 (555) 123-4567</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>info@premierbuilders.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Address</h4>
+                            <p>123 Construction Ave, Building City, BC 12345</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h4>Business Hours</h4>
+                            <p>Mon - Fri: 8:00 AM - 6:00 PM<br>Sat: 9:00 AM - 4:00 PM</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <h3>Send us a Message</h3>
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" id="phone" name="phone" placeholder="Your Phone">
+                    </div>
+                    <div class="form-group">
+                        <select id="service" name="service" required>
+                            <option value="">Select Service</option>
+                            <option value="residential">Residential Construction</option>
+                            <option value="commercial">Commercial Building</option>
+                            <option value="renovation">Renovation</option>
+                            <option value="land">Land Development</option>
+                            <option value="consultation">Consultation</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="Tell us about your project" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <i class="fas fa-home"></i>
+                        <span>Premier Builders</span>
+                    </div>
+                    <p>Building excellence through quality construction and innovative design solutions.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#services">Residential Construction</a></li>
+                        <li><a href="#services">Commercial Buildings</a></li>
+                        <li><a href="#services">Renovations</a></li>
+                        <li><a href="#services">Land Development</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#projects">Our Projects</a></li>
+                        <li><a href="#lands">Available Lands</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <p><i class="fas fa-phone"></i> +1 (555) 123-4567</p>
+                    <p><i class="fas fa-envelope"></i> info@premierbuilders.com</p>
+                    <p><i class="fas fa-map-marker-alt"></i> 123 Construction Ave, Building City</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Premier Builders. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="static/script.js"></script>
+</body>
+</html>
