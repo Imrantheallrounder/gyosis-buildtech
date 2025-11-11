@@ -1,0 +1,8 @@
+# https://www.robotstxt.org/robotstxt.html
+# Allow all search engines to crawl the site
+User-agent: *
+Allow: /
+Disallow: /static/
+
+# Sitemap location (update after hosting)
+Sitemap: https://gyosisbuildtech.com/sitemap.xml
